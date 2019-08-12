@@ -1,0 +1,47 @@
+.container{
+    width: 80%;
+}
+
+form{
+    padding: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    width: 100%;
+}
+
+.panel{
+    height: 300px;
+}
+
+.panel-text{
+    font-size: 80%;
+}
+
+.panel-heading{
+    font-weight: bold;
+}
+
+.card-img-top{
+    height: 150px;
+}
+
+.card-input-element {
+    display: none;
+}
+
+.card-input {
+    margin: 10px;
+    padding: 00px;
+}
+
+.card-input:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked + .card-input {
+    box-shadow: 0 0 1px 1px #2ecc71;
+}
