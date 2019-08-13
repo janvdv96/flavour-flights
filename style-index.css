@@ -1,17 +1,34 @@
 
-body  {
-    background-color: ;
+
+html, body {height: 100%}
+body {
+    margin: 0;
+    padding: 0;
 }
+
 
 .navbar {
     padding-bottom: auto;
     box-sizing: inherit;
     margin: 0;
-    border: 1px;
-    border-style: solid;
-    border-color: #d6d8db;
 
+}
 
+.navbar-brand{
+    width:120px;
+    height: auto;
+}
+
+.logo
+{
+    width: 250px;
+    height: 200px;
+}
+
+.container
+{
+    width: 100vw;
+    height:  100vh;
 }
 
 
@@ -42,21 +59,26 @@ body  {
 
 
 
-
+/*
 .panel-footer {
     width: 100%;
-  /*  background-color: #212529; */
+    background-color: #212529;
     padding-bottom: auto;
     margin: 0;
     z-index: auto;
     text-align: center;
-}
+}*/
 
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+
+
 
 .text-right {
     font-size: smaller;
