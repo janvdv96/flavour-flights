@@ -25,12 +25,13 @@ iframe{
 }
 
 .parallax{
-    background-image: url("src/group1.jpg");
+    background-image: url("src/group2.jpg");
     height: 60vh;
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size:cover;
 }
 
 #headertext{
