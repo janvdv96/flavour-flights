@@ -2,3 +2,30 @@ body {
     background-image:linear-gradient(#D82AC2,#F29CEC);
     color: white;
 }
+
+
+.parallax{
+    background-image: url("src/header_review.png");
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headertext{
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    color: #f9f9f9;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: absolute;
+    font-size: 60px;
+    top: 30vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
