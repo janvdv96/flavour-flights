@@ -1,13 +1,58 @@
-body{
-    background-image: linear-gradient(to bottom, #2BDE79, #2781D3)
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }
 
-/*background-image: linear-gradient(to bottom, #d82ac2, #ba4cd3, #9960dd, #776ee1, #5478de, #3986e4, #1b93e6, #009fe5, #00b4ea, #00c6d7, #00d5af, #2bde79);*/
+body{
+    background-image: linear-gradient(to bottom, #2BDE79, #2781D3);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.parallax{
+    background-image: url("src/beach-header.jpg");
+    height: 60vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headertext{
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    color: #f9f9f9;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: absolute;
+    font-size: 60px;
+    top: 30vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 
 form{
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+    background: rgba(249,249,249, 0.1);
+    border-radius: 10%;
+}
+
+form h3, h5{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.form-control{
+    border: 1px solid gray;
 }
 
 label {
@@ -22,12 +67,13 @@ label {
     font-size: 80%;
 }
 
-.panel-heading{
+.card-header{
     font-weight: bold;
 }
 
 .card-img-top{
     height: 150px;
+    width: auto;
 }
 
 .card-input-element {
@@ -46,6 +92,14 @@ label {
 .card-img-top{
     width: 150px;
     margin: 20px auto;
+}
+
+ul{
+    list-style-type: square;
+}
+
+textarea{
+    resize: none;
 }
 
 .card-input-element:checked + .card-input {
