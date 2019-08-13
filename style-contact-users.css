@@ -1,10 +1,11 @@
-.container{
-    width: 80%;
+body{
+    background-image: linear-gradient(to bottom, #2BDE79, #2781D3)
 }
+
+/*background-image: linear-gradient(to bottom, #d82ac2, #ba4cd3, #9960dd, #776ee1, #5478de, #3986e4, #1b93e6, #009fe5, #00b4ea, #00c6d7, #00d5af, #2bde79);*/
 
 form{
     padding: 10px;
-    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -42,6 +43,11 @@ label {
     cursor: pointer;
 }
 
+.card-img-top{
+    width: 150px;
+    margin: 20px auto;
+}
+
 .card-input-element:checked + .card-input {
-    box-shadow: 0 0 1px 1px #2ecc71;
+    border: 3px solid lime;
 }
