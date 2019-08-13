@@ -12,10 +12,15 @@ body {
 
 #sitrelaxfull {
     height: 100vh;
+    padding-top: 150px;
 }
 
 #traveltimefull {
     height: 100vh;
+}
+
+#traveltime {
+    padding-top: 250px;
 }
 
 h1 {
