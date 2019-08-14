@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -25,15 +25,25 @@
 <body>
     <!-- NAV BAR -->
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Flavour Flights</a>
-            <strong>|</strong>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar fixed-top  navbar-dark bg-transparent" id="navbar_space">
+            <div class="logobox">
+                <div class="row">
+                    <img class="navbar-brand" src="src/Flavoured_Flights-11.png" alt="logo_company" width="120">
+                </div>
+                <div class="row mt-3">
+                    <a class="btn btn-outline-dark">Book now!</a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+
+                <ul class="navbar-nav ml-auto text-right mr-2">
+
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -42,7 +52,7 @@
                     <li class="nav-item">
                         <a class="nav-link " href="about.html">about us</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link " href="contact-users.html">contact</a>
                     </li>
                     <li class="nav-item">
@@ -65,7 +75,7 @@
     <!-- ABOUT US img -->
             <div class="row">
                 <div class="col-sm-4 my-auto">
-                    <img id="mocktail" src="src/Flavoured_Flights-05.png" alt="Mocktail Icon">
+                    <img id="Hands icon" src="src/Flavoured_Flights_about.png" alt="Mocktail Icon">
                 </div>
     <!-- ABOUT US text -->
                 <div class="col-sm-8 p-3 textsection">
@@ -81,59 +91,74 @@
         <section class="container text-center p-3 mb-5 textsection">
             <h2 class="mt-2 mb-3">Meet The Team</h2>
     <!-- MEET NICOLE -->
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="" alt="Nicole">
+            <div class="row profile mt-5">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <img class="profile-pic" src="src/Nicole.png" alt="Nicole">
                 </div>
-                <div class="col-sm-6 my-auto">
+                <div class="col-sm-3 my-auto">
                     <h4>Nicole</h4>
                     <h6><em>-CEO-</em></h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur ducimus</p>
+                    <q>It doesn’t interest me what you do for a living. I want to know what you ache for</q>
+                    <a href="https://nicnicsai.github.io/markdown-to-html/" target="_blank">More info</a>
                 </div>
+                <div class="col-sm-3"></div>
             </div>
     <!-- MEET ALAA -->
-            <div class="row">
-                <div class="col-sm-6 my-auto">
+            <div class="row profile">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3 my-auto">
                     <h4>Alaa</h4>
                     <h6><em>-Office Manager-</em></h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur ducimus</p>
+                    <q>Upgrade your mind!</q>
+                    <a href="https://alaasho.github.io/alaashvcard/" target="_blank">More info</a>
                 </div>
-                <div class="col-sm-6">
-                    <img src="" alt="Alaa">
+                <div class="col-sm-3">
+                    <img class="profile-pic" src="src/alaa.jpeg" alt="Alaa">
                 </div>
+                <div class="col-sm-3"></div>
             </div>
     <!-- MEET JAN -->
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="" alt="Jan">
+            <div class="row profile">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <img class="profile-pic" src="src/jan.jpg" alt="Jan">
                 </div>
-                <div class="col-sm-6 my-auto">
+                <div class="col-sm-3 my-auto">
                     <h4>Jan</h4>
                     <h6><em>-Operations Manager-</em></h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur ducimus</p>
+                    <q>Failure is the condiment that gives success its flavor</q>
+                    <a href="https://janvdv96.github.io/html-css-exercise/index.html" target="_blank">More info</a>
                 </div>
+                <div class="col-sm-3"></div>
             </div>
     <!-- MEET BONA -->
-            <div class="row">
-                <div class="col-sm-6 my-auto">
+            <div class="row profile">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3 my-auto">
                     <h4>Bona</h4>
                     <h6><em>-Marketing Manager-</em></h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur ducimus</p>
+                    <q>Dream it. Believe it. Build it.</q>
+                    <a href="https://bona-kim.github.io/markdown-to-html/index.html" target="_blank">More info</a>
                 </div>
-                <div class="col-sm-6">
-                    <img src="" alt="Bona">
+                <div class="col-sm-3">
+                    <img class="profile-pic" src="src/bona.png" alt="Bona">
                 </div>
+                <div class="col-sm-3"></div>
             </div>
     <!-- MEET ROBIN -->
-            <div class="row m-3">
-                <div class="col-sm-6">
-                    <img src="" alt="Robin">
+            <div class="row mb-5">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <img class="profile-pic" src="src/robin.jpeg" alt="Robin">
                 </div>
-                <div class="col-sm-6 my-auto">
+                <div class="col-sm-3 my-auto">
                     <h4>Robin</h4>
                     <h6><em>-Accountant-</em></h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur ducimus</p>
+                    <q>If at first you don't succeed, call it version 1.0</q>
+                    <a href="https://robinmarien.github.io/challenge-HTML1/page2.html" target="_blank">More info</a>
                 </div>
+                <div class="col-sm-3"></div>
             </div>
         </section>
     <!-- MEET THE TEAM section end -->

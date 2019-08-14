@@ -10,6 +10,18 @@ iframe{
     height:275px;
 }
 
+.profile q{
+    display:block;
+}
+
+.profile:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 50px auto; /* This will center the border. */
+    width: 33%; /* Change this to whatever width you want. */
+    border-bottom: 2px solid white; /* This creates the border. Replace black with whatever color you want. */
+}
+
 .send{
     width:100%;
 }
@@ -49,4 +61,11 @@ iframe{
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.profile-pic{
+    border-radius:50%;
+    width:150px;
+    height:150px;
+    border: white 2px solid;
 }
