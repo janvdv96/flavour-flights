@@ -12,6 +12,8 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicon-16x16.png">
 
     <!-- bootstrap link (for button to-the-top) -->
 
@@ -48,7 +50,7 @@
 
 <nav class="navbar fixed-top  navbar-dark bg-transparent" id="navbar_space">
 
-    <img class="navbar-brand" src="src/Flavoured_Flights-11.png" alt="logo_company" width="120">
+    <img class="navbar-brand" src="src/logo_small.png" alt="logo_company">
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 
@@ -98,18 +100,6 @@
 
         </ul>
 
-        <!--
-
-        <form class="form-inline my-2 my-lg-0">
-
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-
-        </form>
-
-        -->
-
 
     </div>
 
@@ -129,19 +119,20 @@
 
             <h1> How Flavour Flights work </h1>
 
+            <!-- CUSTOM TRIP -->
 
             <div id="customtrip" class="row pt-5">
 
 
                 <section id="image_container_1" class="col-md-6 my-auto">
 
-                    <img class="d-none d-md-flex" src="src/Flavoured_Flights-05.png" alt="custom info icon" height="150"
+                    <img class="d-none d-lg-flex" src="src/Flavoured_Flights-05.png" alt="custom info icon" height="150"
                          width="150">
 
                 </section>
 
 
-                <section id="text_container_1" class="col-md-6 my-auto ">
+                <section id="text_container_1" class="col-lg-6 my-auto ">
 
                     <h2>1.Choose your favorite flavour and customise your trip</h2>
 
@@ -171,6 +162,7 @@
 
         </section>
 
+        <!-- SIT AND RELAX -->
 
         <section id="sitrelaxfull">
 
@@ -179,13 +171,13 @@
 
                 <section id="image_container_2" class="col-md-6 my-auto">
 
-                    <img class="d-none d-md-flex" src="src/Flavoured_Flights-09.png" alt="Sit wait relax icon"
+                    <img class="d-none d-lg-flex" src="src/Flavoured_Flights-09.png" alt="Sit wait relax icon"
                          height="150" width="150">
 
                 </section>
 
 
-                <section id="text_container_2" class="col-md-6 my-auto">
+                <section id="text_container_2" class="col-lg-6 my-auto">
 
                     <h2>2.Sit.Wait.Relax</h2>
 
@@ -205,6 +197,7 @@
 
         </section>
 
+        <!-- TRAVEL TIME -->
 
         <section id="traveltimefull">
 
@@ -214,13 +207,13 @@
 
                 <section id="image_container_3" class="col-md-6 my-auto">
 
-                    <img class="d-none d-md-flex" src="src/Flavoured_Flights-08.png" alt="travel icon" height="150"
+                    <img class="d-none d-lg-flex" src="src/Flavoured_Flights-08.png" alt="travel icon" height="150"
                          width="150">
 
                 </section>
 
 
-                <section id="text_container_3" class="col-md-6">
+                <section id="text_container_3" class="col-lg-6">
 
                     <h2> 3.Travel without worries</h2>
 
@@ -232,35 +225,36 @@
 
                 </section>
 
+            </div>
 
-                <div id="buttons">
+            <!-- BUTTONS -->
 
-
-                    <button id="book_button" class="btn btn-light mr-4" href="#">Book your trip!</button>
-
-                    <button id="ask_button" class="btn btn-outline-light" href="#">Ask A Question</button>
+            <div id="buttons" class="pt-5 text-center m-5">
 
 
-                </div>
+                <button id="book_button" class="btn btn-light mt-3 m-none mr-md-5" href="#">Book your trip!</button>
+
+                <button id="ask_button" class="btn btn-outline-light mt-3 m-none ml-md-5" href="#">Ask A Question</button>
+
+
+            </div>
 
         </section>
 
 
+        <!-- FOOTER -->
+
+        <footer class="panel-footer text-center text-muted mw-100">
+
+            <span>  2019 &copy;Flavour Flights, Inc. -</span>
+
+        </footer>
+
     </section>
 
+    <!-- BACK TO TOP BUTTON -->
 
-    <!-- MAIN SECTION end -->
-
-    <footer class="panel-footer text-center text-muted mw-100">
-
-        <span>  2019 &copy;Flavour Flights, Inc. -</span>
-
-    </footer>
-
-
-    <!-- Back to top button -->
-
-    <a id="button"></a>
+    <a href="#top" onclick="topFunction()" title="back to top" id="button"></a>
 
 
     <!-- Bootstrap script -->
@@ -285,7 +279,7 @@
             crossorigin="anonymous"></script>
 
 
-    <!-- button top-of-the-page script -->
+    <!-- BACK TO TOP BUTTON script -->
 
 
     <script>
@@ -308,16 +302,15 @@
         });
 
 
-        btn.on('click', function (e) {
-
-            e.preventDefault();
-
-            $('html, body').animate({scrollTop: 0}, '300');
+        $("#button").on("click", function () {
+            $("body").scrollTop(0)
+            ;
 
         });
 
 
     </script>
+
 
 
 </body>
