@@ -6,6 +6,9 @@ body {
     padding: 0;
 }
 
+.carousel{
+    height: 95vh;
+}
 
 .navbar {
     padding-bottom: auto;
@@ -21,16 +24,14 @@ body {
 
 .logo
 {
-    width: 250px;
+    width: 270px;
     height: 200px;
+    z-index: 10;
 }
 
-.container
-{
-    width: 100vw;
-    height:  100vh;
+.d-block{
+    height: 95vh;
 }
-
 
 .main-text
 {
@@ -38,7 +39,14 @@ body {
     top: 50px;
     width: 96.66666666666666%;
     color: #FFF;
+    z-index: 10;
+  /*  pointer-events: none; */
 }
+
+.main-text .btn{
+    pointer-events: all;
+}
+
 .btn-min-block
 {
     min-width: 170px;
@@ -77,19 +85,26 @@ footer {
     padding: 0;
 }
 
-
-
-
-.text-right {
-    font-size: smaller;
-
-}
-
-img {
-    width: 100vw;
-
-}
-
 .booktop {
     text-align: right;
 }
+
+
+
+
+
+.opacity-color {
+    pointer-events: none;
+    width: 100vw;
+    height: 95vh;
+    background-color: #6610f2;
+    position: absolute;
+    z-index: 5;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Reviews with photo's and video">
     <meta name="keywords" content="Flavour Flights, Mocktails, travelling, Review">
     <meta name="author" content="Bona Kim">
@@ -12,123 +12,79 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-reviews.css">
     <link rel="icon" type="image/png" sizes="16x16" href="src/favicon-16x16.png">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
 </head>
 <body>
 
-<!-- Navigation bar _ original
-<a name="top"></a>
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent text-light">
-    <a class="navbar-brand" href="#">Flavour Flights</a>
-    <strong>|</strong>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-            class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="howitworks.html">how it works</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">about us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact-users.html">contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="reviews.html">reviews</a>
-            </li>
-
-        </ul>
-        <!--
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        -->
-
+<!-- NAVIGATION -->
+<nav class="navbar fixed-top  navbar-dark bg-transparent" id="navbar_space">
+    <div class="logobox">
+        <div class="row">
+            <img class="navbar-brand" src="src/logo_small.png" alt="logo_company">
+        </div>
+        <div class="row mt-3">
+            <a class="btn btn-outline-dark border" id="">Book now!</a>
+        </div>
     </div>
-</nav>
--->
-
-<!-- Navigation bar _ original-->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <!-- Brand logo -->
-    <a class="navbar-brand p-3" href="index.html"><img src="src/logo_small.png" alt="logo"></a>
-    <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto font-weight-bold">
-            <li class="nav-item p-3">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item p-3">
-                <a class="nav-link" href="howitworks.html">how it works</a>
-            </li>
-            <li class="nav-item p-3">
-                <a class="nav-link " href="about.html">about us</a>
-            </li>
-            <li class="nav-item p-3">
-                <a class="nav-link " href="contact-users.html">BOOK NOW</a>
-            </li>
-            <li class="nav-item active p-3">
-                <a class="nav-link " href="reviews.html">reviews</a>
-            </li>
-        </ul>
-    </div>
-    <!-- Book now button -->
-    <div class="navbar-right text-uppercase mr-3">
-        <a class="btn btn-primary font-weight-bold pl-5 pr-5" href="contact-users.html">Book now!</a>
-    </div>
-
-    <!-- Toggler -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ml-auto text-right mr-2">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="howitworks.html">how it works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="about.html">about us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="contact-users.html">contact</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " href="reviews.html">reviews</a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 
-<!-- Parallax Header -->
+<!-- HEADER -->
 <div class="parallax"><h1 id="headertext" class="text-center">Real Travelers’ Reviews You Can Trust!</h1></div>
 
-<!--Place for Main-->
+<!-- MAIN -->
 <main class="mt-5">
-    <section class="container-fluid w-75">
-        <h2>Reviews list</h2>
-        <div class="row m-auto">
-            <!-- First column of the Review section -->
-            <section class="col-12 col-md-6 col-xl-4">
+    <section class="container-fluid w-75"> <!-- review container with 1row (3 columns)-->
+        <h2 class="hidden">Reviews list</h2>
+        <section class="row m-auto">
+            <!-- 1st column of the Review section -->
+            <div class="col-12 col-md-6 col-xl-4">
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body border-0 p-0 bg-light brBoth">
-                        <img class="w-100 mb-3 brUp" src="src/review1_1.png" alt="father and daughter walking peacefully on the beach" title="Photo of Review1">
+                        <img class="w-100 mb-3 brUp" src="src/review1_1.png"
+                             alt="father and daughter walking peacefully on the beach" title="Photo of Review1">
                         <div class="p-3">
                             <h4 class="card-title text-body font-weight-bold">Dazzling experience!</h4>
                             <p class="card-text text-body">
-                                We chose the Watermelon Margarita. Excellent from the beginning to the end. My husband and daughter enjoyed the itinerary and we had some great relaxing quality time together.
+                                We chose the Watermelon Margarita. Excellent from the beginning to the end. My husband
+                                and daughter enjoyed the itinerary and we had some great relaxing quality time together.
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Koen
                             </div>
                             <p><small class="text-muted">Last updated 3 mins ago</small></p>
                         </footer>
 
                     </div>
-                </div> <!--1-1-->
+                </div> <!--Review 1-1-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <div class="embed-responsive embed-responsive-16by9 mb-3">
@@ -139,134 +95,152 @@
                             <h4 class="card-title text-body font-weight-bold">Unforgettable family moments</h4>
                             <p class="card-text text-body">
                                 Our trip was awesome and Flavour Flights did a great job in planning the vacation around
-                                our tastes and needs. no further comments to be given, check out the video ! Thank you Flavour Flights
+                                our tastes and needs. no further comments to be given, check out the video ! Thank you
+                                Flavour Flights
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Badr
                             </div>
                             <p><small class="text-muted">Last updated 48 mins ago</small></p>
                         </footer>
 
                     </div>
-                </div> <!--1-2-->
+                </div> <!--Review 1-2-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
-                        <img class="w-100 mb-3 brUp" src="src/review1_3.png" alt="A guy in front of the waterfall">
+                        <img class="w-100 mb-3 brUp" src="src/review1_3.png" alt="A guy in front of the waterfall"
+                             title="Photo of Review3">
                         <div class="p-3">
                             <h4 class="card-title text-body font-weight-bold">Choose Mountain Martini</h4>
                             <p class="card-text text-body">
-                                Amazing, Flavour Flights knows exactly what I need after I chose Mountain Martini. After a few days I got a personalised tailor made schedule. Just perfect balance in terms of relaxation and adventure.
+                                Amazing, Flavour Flights knows exactly what I need after I chose Mountain Martini. After
+                                a few days I got a personalised tailor made schedule. Just perfect balance in terms of
+                                relaxation and adventure.
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Kevin
                             </div>
-                            <p><small class="text-muted">Last updated 2 days ago</small></p>
+                            <p><small class="text-muted">Last updated 3 days ago</small></p>
                         </footer>
 
                     </div>
-                </div> <!--1-3-->
+                </div> <!--Review 1-3-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
-                        <img class="w-100 mb-3 brUp" src="src/review1_4.png" alt="Pyramids and a camel in the dessert">
+                        <img class="w-100 mb-3 brUp" src="src/review1_4.png" alt="Pyramids and a camel in the dessert"
+                             title="Photo of Review4">
                         <div class="p-3">
                             <h4 class="card-title text-body font-weight-bold">Escaping from the city</h4>
                             <p class="card-text text-body">
-                                Flavour Flights have opened a whole new world for me ! definitely needed to escape from the metropolitan city and surprised by the rich culture of Egypt. Do you know what beverage I choose ? ... Iceberg Mocktail
+                                Flavour Flights have opened a whole new world for me ! definitely needed to escape from
+                                the metropolitan city and surprised by the rich culture of Egypt. Do you know what
+                                beverage I choose ? ... Iceberg Mocktail
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Joost
                             </div>
-                            <p><small class="text-muted">Last updated 5 days ago</small></p>
+                            <p><small class="text-muted">Last updated 1 weeks ago</small></p>
                         </footer>
 
                     </div>
-                </div> <!--1-4-->
-            </section>
-            <!-- Second column of the Review section -->
-            <section class="col-12 col-md-6 col-xl-4">
+                </div> <!--Review 1-4-->
+            </div>
+            <!-- 2nd column of the Review section -->
+            <div class="col-12 col-md-6 col-xl-4">
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
-                        <img class="w-100 mb-3 brUp" src="src/review2_1.png" alt="2 girls on the top of the mountain stretching their arms">
+                        <img class="w-100 mb-3 brUp" src="src/review2_1.png"
+                             alt="2 girls on the top of the mountain stretching their arms" title="Photo of Review5">
                         <div class="p-3">
                             <h4 class="card-title text-body font-weight-bold">Best holidays with best friend</h4>
                             <p class="card-text text-body">
-                                I think Flavour Flight read my mind, how did they know that me and my BF liked hiking so much ? We enjoyed the secret hiking trails in combination with the relaxation areas. we enjoyed the mountain environment, Mountain Margarita was a good choice hahaha
+                                I think Flavour Flight read my mind, how did they know that me and my BF liked hiking so
+                                much ? We enjoyed the secret hiking trails in combination with the relaxation areas. we
+                                enjoyed the mountain environment, Mountain Margarita was a good choice hahaha
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Anastasiya
                             </div>
-                            <p><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p><small class="text-muted">Last updated 3 weeks ago</small></p>
                         </footer>
 
                     </div>
-                </div> <!--2-1-->
+                </div> <!--Review 2-1-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
-                        <img class="w-100 mb-3 brUp" src="src/review2_2.png" alt="Palm trees sunset view">
+                        <img class="w-100 mb-3 brUp" src="src/review2_2.png" alt="Palm trees sunset view"
+                             title="Photo of Review6">
                         <div class="p-3">
                             <h4 class="card-title text-body font-weight-bold">Exotic nights with a drink</h4>
                             <p class="card-text text-body">
-                                WoW Amazing photo don't you think so ? waking up early to see the sunrise, staying up late to watch the sunset ... all with a cocktail in my hand and chillaxing all day.
+                                WoW Amazing photo don't you think so ? waking up early to see the sunrise, staying up
+                                late to watch the sunset ... all with a cocktail in my hand and chillaxing all day.
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Jeroen
                             </div>
-                            <p><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p><small class="text-muted">Last updated a month ago</small></p>
                         </footer>
 
                     </div>
-                </div> <!--2-2-->
+                </div> <!--Review 2-2-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <div class="embed-responsive embed-responsive-16by9 mb-3">
-                            <iframe class="embed-responsive-item brUp" src="https://www.youtube.com/embed/AkzWXYGDl20"></iframe>
+                            <iframe class="embed-responsive-item brUp"
+                                    src="https://www.youtube.com/embed/AkzWXYGDl20"></iframe>
                         </div>
                         <div class="p-3">
                             <h4 class="card-title text-body font-weight-bold">Sweet Maldives</h4>
                             <p class="card-text text-body">
-                                Thanks to Flavour Flights we escaped from reality. Me and my boyfriend enjoyed the Maldives soo much. People say it's heaven on earth, I completely agree. Thank you Flavour Flights !
+                                Thanks to Flavour Flights we escaped from reality. Me and my boyfriend enjoyed the
+                                Maldives soo much. People say it's heaven on earth, I completely agree. Thank you
+                                Flavour Flights !
                             </p>
                         </div>
                         <footer class="text-right p-3">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Rafah
                             </div>
-                            <p><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p><small class="text-muted">Last updated 2 months ago</small></p>
                         </footer>
 
                     </div>
-                </div> <!--2-3-->
+                </div> <!--Review 2-3-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
-                        <img class="w-100 mb-3 brUp" src="src/review2_4.png" alt="a woman enjoying the snowflakes">
+                        <img class="w-100 mb-3 brUp" src="src/review2_4.png" alt="a woman enjoying the snowflakes"
+                             title="Photo of Review8">
                         <div class="p-3">
                             <h4 class="card-title text-body font-weight-bold">Jingle Bells and Ho Ho Ho</h4>
                             <p class="card-text text-body">
-                                I never spent Christmas abroad, it was the first time to experience the special atmosphere and the many many markets. Great itinerary to discover plenty of food and drinks. highly recommended
+                                I never spent Christmas abroad, it was the first time to experience the special
+                                atmosphere and the many many markets. Great itinerary to discover plenty of food and
+                                drinks. highly recommended
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Manny
                             </div>
-                            <p><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p><small class="text-muted">Last updated 3 months ago</small></p>
                         </footer>
 
                     </div>
-                </div> <!--2-4-->
-            </section>
-            <!-<-- Third column of the Review section -->
-            <section class="col-12 col-md-6 col-xl-4">
+                </div> <!--Review 2-4-->
+            </div>
+            <!-- 3rd column of the Review section -->
+            <div class="col-12 col-md-6 col-xl-4">
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <div class="embed-responsive embed-responsive-16by9 mb-3">
@@ -276,32 +250,37 @@
                         <div class="p-3">
                             <h4 class="card-title text-body font-weight-bold">Fabulous getaway with the ladies</h4>
                             <p class="card-text text-body">
-                                Me and the girls wanted to go a on trip to celebrate our 10 years friendship. We chose the Watermelon Margarita and received a great planning and guidance. looks like Flavour Flights could read our minds.
+                                Me and the girls wanted to go a on trip to celebrate our 10 years friendship. We chose
+                                the Watermelon Margarita and received a great planning and guidance. looks like Flavour
+                                Flights could read our minds.
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Ines
                             </div>
-                            <p><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p><small class="text-muted">Last updated 5 months ago</small></p>
                         </footer>
 
                     </div>
                 </div> <!--3-1-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
-                        <img class="w-100 mb-3 brUp" src="src/review3_2.png" alt="A woman with the red outfit drinking coke at the swimming pool">
+                        <img class="w-100 mb-3 brUp" src="src/review3_2.png"
+                             alt="A woman with the red outfit drinking coke at the swimming pool"
+                             title="Photo of Review10">
                         <div class="p-3">
                             <h4 class="card-title text-body font-weight-bold">Carpe diem, living the good life</h4>
                             <p class="card-text text-body">
-                                We wanted to try something different for our holidays, thinking ouf the box and getting surprised by Flavour Flights was a once in a lifetime experience.
+                                We wanted to try something different for our holidays, thinking ouf the box and getting
+                                surprised by Flavour Flights was a once in a lifetime experience.
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Loïc
                             </div>
-                            <p><small class="text-muted">Last updated 58 mins ago</small></p>
+                            <p><small class="text-muted">Last updated 6 months ago</small></p>
                         </footer>
 
                     </div>
@@ -316,56 +295,62 @@
                             <h4 class="card-title text-body font-weight-bold">A superb splendid solo vacation</h4>
                             <p class="card-text text-body">
                                 My itinerary was perfectly planned and spaced out. I wasn't in
-                                one place too long, but enough time to relax when needed. I didn't have a dull moment, never felt alone thanks to the great planning from Flavour flight.
+                                one place too long, but enough time to relax when needed. I didn't have a dull moment,
+                                never felt alone thanks to the great planning from Flavour flight.
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Eloualid
                             </div>
-                            <p><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p><small class="text-muted">Last updated 8 months ago</small></p>
                         </footer>
 
                     </div>
                 </div> <!--3-3-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
-                        <img class="w-100 mb-3 brUp" src="src/review3_4.png" alt="Santorini ocean view">
+                        <img class="w-100 mb-3 brUp" src="src/review3_4.png" alt="Santorini ocean view"
+                             title="Photo of Review12">
                         <div class="p-3">
                             <h4 class="card-title text-body font-weight-bold">Magical trip</h4>
                             <p class="card-text text-body">
-                                Best travel company ever, professional guidance and perfect planning. enjoyed the Sea, the food, and the Iceberg Mocktail under the sun.
+                                Best travel company ever, professional guidance and perfect planning. enjoyed the Sea,
+                                the food, and the Iceberg Mocktail under the sun.
                             </p>
                         </div>
                         <footer class="text-right p-3 brDown">
                             <div class="blockquote-footer">
-                                Rafah, Antwerpen
+                                Filip
                             </div>
-                            <p><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p><small class="text-muted">Last updated 1 year ago</small></p>
                         </footer>
 
                     </div>
                 </div> <!--3-4-->
-            </section>
-        </div>
+            </div>
+        </section>
     </section>
+
+    <!-- Button to the top -->
+
 </main>
 
 
-<!-- Place for footer -->
-<footer class="panel-footer text-muted mw-100">
-    <div class="row">
-        <div class="col">
-        <span class="">  2019 Flavour Flights, Inc. -
-        <a class="text-primary" href="#">Privacy</a> - <a class="text-primary" href="#">Terms</a>
-        </span>
-        </div>
-        <div class="col text-right">
-            <span class=""><a href="#top">Back to top of page </a></span>
-        </div>
-        <div></div>
-    </div>
+<!-- FOOTER -->
+<footer class="panel-footer text-center text-muted mw-100 text-light">
+    <span>  2019 &copy;Flavour Flights, Inc. -</span>
 </footer>
 
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
