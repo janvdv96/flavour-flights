@@ -16,41 +16,44 @@
 <body>
 
 
-<!-- NAVIGATION-->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <!-- Brand logo -->
-    <a class="navbar-brand p-3" href="index.html"><img src="src/logo_small.png" alt="logo"></a>
-    <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto font-weight-bold">
-            <li class="nav-item p-3">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item p-3">
-                <a class="nav-link" href="howitworks.html">how it works</a>
-            </li>
-            <li class="nav-item p-3">
-                <a class="nav-link " href="about.html">about us</a>
-            </li>
-            <li class="nav-item p-3">
-                <a class="nav-link " href="contact-users.html">BOOK NOW</a>
-            </li>
-            <li class="nav-item active p-3">
-                <a class="nav-link " href="reviews.html">reviews</a>
-            </li>
-        </ul>
+<!-- NAVIGATION -->
+<nav class="navbar fixed-top  navbar-dark bg-transparent" id="navbar_space">
+    <div class="logobox">
+        <div class="row">
+            <img class="navbar-brand" src="src/logo_small.png" alt="logo_company">
+        </div>
+        <div class="row mt-3">
+            <a class="btn btn-outline-dark border" id="">Book now!</a>
+        </div>
     </div>
-    <!-- Book now button -->
-    <div class="navbar-right text-uppercase mr-3">
-        <a class="btn btn-primary font-weight-bold pl-5 pr-5" href="contact-users.html">Book now!</a>
-    </div>
-
-    <!-- Toggler -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ml-auto text-right mr-2">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="howitworks.html">how it works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="about.html">about us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="contact-users.html">contact</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " href="reviews.html">reviews</a>
+            </li>
+        </ul>
+    </div>
 </nav>
+
 
 <!-- HEADER -->
 <div class="parallax"><h1 id="headertext" class="text-center">Real Travelers’ Reviews You Can Trust!</h1></div>
