@@ -250,3 +250,28 @@ h2 {
     visibility: visible;
 
 }
+
+/* MEDIA QUERY FOR MOBILE */
+
+@media only screen and (max-width: 600px) {
+    #traveltimefull {
+        height: 130vh;
+        padding-top: 0px;
+    }
+    #traveltime {
+        padding-top: 0px;
+    }
+    #sitrelaxfull {
+        padding-top: 0px;
+    }
+    #customtripfull {
+        height: 198vh;
+        padding-top: 0px;
+    }
+    #containerfull {
+        width: 80%;
+    }
+    #text_container_3 {
+        margin-top: 0px;
+    }
+}
