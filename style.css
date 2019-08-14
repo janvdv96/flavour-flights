@@ -14,3 +14,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.hide {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
