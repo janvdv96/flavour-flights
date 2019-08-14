@@ -3,7 +3,9 @@
 https://janvdv96.github.io/flavour-flights/index.html
 
 #Flavour Flights
-   ## Flavour Flights is not your typical travel agency. We try to tailor the perfect holiday for you, based on the drink of your choice. No two vacations with us will ever be the same! So if you're a fan of adventure.. pick a drink and start packing!
+
+*Flavour Flights is not your typical travel agency. We try to tailor the perfect holiday for you, based on the drink of your choice. No two vacations with us will ever be the same! So if you're a fan of adventure.. pick a drink and start packing!*
+
 #Flavour Flights
    ##  The readme says who made it
    
