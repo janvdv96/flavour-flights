@@ -3,9 +3,22 @@ body{
     color:white;
 }
 
+#mainbody {
+    width: 70vw;
+}
+
+#Hands_icon{
+    width:200px;
+}
+
 iframe{
-    width:350px;
-    height:275px;
+    width:300px;
+    height:250px;
+    border: 2px white solid;
+}
+
+a{
+    display:block;
 }
 
 q{
@@ -17,7 +30,7 @@ q{
     display: block; /* This will put the pseudo element on its own line. */
     margin: 50px auto; /* This will center the border. */
     width: 33%; /* Change this to whatever width you want. */
-    border-bottom: 2px solid white; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 3px solid white; /* This creates the border. Replace black with whatever color you want. */
 }
 
 .profile-text{
@@ -77,4 +90,10 @@ q{
     width:150px;
     height:150px;
     border: white 2px solid;
+}
+
+@media(max-width: 768px){
+    #mainbody{
+        width:100vw;
+    }
 }
