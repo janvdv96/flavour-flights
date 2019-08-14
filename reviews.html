@@ -12,59 +12,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-reviews.css">
     <link rel="icon" type="image/png" sizes="16x16" href="src/favicon-16x16.png">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
 </head>
 <body>
 
-<!-- Navigation bar _ original
-<a name="top"></a>
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent text-light">
-    <a class="navbar-brand" href="#">Flavour Flights</a>
-    <strong>|</strong>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-            class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="howitworks.html">how it works</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">about us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact-users.html">contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="reviews.html">reviews</a>
-            </li>
-
-        </ul>
-        <!--
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        -->
-
-    </div>
-</nav>
--->
-
-<!-- Navigation bar _ original-->
+<!-- NAVIGATION-->
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <!-- Brand logo -->
     <a class="navbar-brand p-3" href="index.html"><img src="src/logo_small.png" alt="logo"></a>
@@ -100,17 +52,16 @@
     </button>
 </nav>
 
-
-<!-- Parallax Header -->
+<!-- HEADER -->
 <div class="parallax"><h1 id="headertext" class="text-center">Real Travelers’ Reviews You Can Trust!</h1></div>
 
-<!--Place for Main-->
+<!-- MAIN -->
 <main class="mt-5">
-    <section class="container-fluid w-75">
-        <h2>Reviews list</h2>
-        <div class="row m-auto">
-            <!-- First column of the Review section -->
-            <section class="col-12 col-md-6 col-xl-4">
+    <section class="container-fluid w-75"> <!-- review container with 1row (3 columns)-->
+        <h2 class="hidden">Reviews list</h2>
+        <section class="row m-auto">
+            <!-- 1st column of the Review section -->
+            <div class="col-12 col-md-6 col-xl-4">
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body border-0 p-0 bg-light brBoth">
                         <img class="w-100 mb-3 brUp" src="src/review1_1.png" alt="father and daughter walking peacefully on the beach" title="Photo of Review1">
@@ -128,7 +79,7 @@
                         </footer>
 
                     </div>
-                </div> <!--1-1-->
+                </div> <!--Review 1-1-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <div class="embed-responsive embed-responsive-16by9 mb-3">
@@ -150,7 +101,7 @@
                         </footer>
 
                     </div>
-                </div> <!--1-2-->
+                </div> <!--Review 1-2-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <img class="w-100 mb-3 brUp" src="src/review1_3.png" alt="A guy in front of the waterfall"  title="Photo of Review3">
@@ -168,7 +119,7 @@
                         </footer>
 
                     </div>
-                </div> <!--1-3-->
+                </div> <!--Review 1-3-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <img class="w-100 mb-3 brUp" src="src/review1_4.png" alt="Pyramids and a camel in the dessert" title="Photo of Review4">
@@ -186,10 +137,10 @@
                         </footer>
 
                     </div>
-                </div> <!--1-4-->
-            </section>
-            <!-- Second column of the Review section -->
-            <section class="col-12 col-md-6 col-xl-4">
+                </div> <!--Review 1-4-->
+            </div>
+            <!-- 2nd column of the Review section -->
+            <div class="col-12 col-md-6 col-xl-4">
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <img class="w-100 mb-3 brUp" src="src/review2_1.png" alt="2 girls on the top of the mountain stretching their arms" title="Photo of Review5">
@@ -207,7 +158,7 @@
                         </footer>
 
                     </div>
-                </div> <!--2-1-->
+                </div> <!--Review 2-1-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <img class="w-100 mb-3 brUp" src="src/review2_2.png" alt="Palm trees sunset view" title="Photo of Review6">
@@ -225,7 +176,7 @@
                         </footer>
 
                     </div>
-                </div> <!--2-2-->
+                </div> <!--Review 2-2-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <div class="embed-responsive embed-responsive-16by9 mb-3">
@@ -245,7 +196,7 @@
                         </footer>
 
                     </div>
-                </div> <!--2-3-->
+                </div> <!--Review 2-3-->
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <img class="w-100 mb-3 brUp" src="src/review2_4.png" alt="a woman enjoying the snowflakes" title="Photo of Review8">
@@ -263,10 +214,10 @@
                         </footer>
 
                     </div>
-                </div> <!--2-4-->
-            </section>
-            <!-<-- Third column of the Review section -->
-            <section class="col-12 col-md-6 col-xl-4">
+                </div> <!--Review 2-4-->
+            </div>
+            <!-- 3rd column of the Review section -->
+            <div class="col-12 col-md-6 col-xl-4">
                 <div class="card border-0 mb-3 brBoth">
                     <div class="card-body p-0 bg-light brBoth">
                         <div class="embed-responsive embed-responsive-16by9 mb-3">
@@ -346,26 +297,29 @@
 
                     </div>
                 </div> <!--3-4-->
-            </section>
-        </div>
+            </div>
+        </section>
     </section>
+
+    <!-- Button to the top -->
+
 </main>
 
 
-<!-- Place for footer -->
-<footer class="panel-footer text-muted mw-100">
-    <div class="row">
-        <div class="col">
-        <span class="">  2019 Flavour Flights, Inc. -
-        <a class="text-primary" href="#">Privacy</a> - <a class="text-primary" href="#">Terms</a>
-        </span>
-        </div>
-        <div class="col text-right">
-            <span class=""><a href="#top">Back to top of page </a></span>
-        </div>
-        <div></div>
-    </div>
+<!-- FOOTER -->
+<footer class="panel-footer text-center text-muted mw-100 text-light">
+    <span>  2019 &copy;Flavour Flights, Inc. -</span>
 </footer>
 
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
