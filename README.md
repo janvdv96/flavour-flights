@@ -23,7 +23,7 @@ https://janvdv96.github.io/flavour-flights/index.html
    
    ##  The readme links to a preview (screenshot)
    
-   ![Screenshot](https://gyazo.com/1e309c50bcb3c02e7c964e8b64467abd "Logo Title Text 1")
+   ![Screenshot](https://raw.githubusercontent.com/janvdv96/flavour-flights/master/src/group1.jpg "Placeholder")
    
    ##  The readme contains a nice image
    
