@@ -251,6 +251,10 @@ h2 {
 
 }
 
+#traveltime {
+    padding-top: 160px;
+}
+
 /* MEDIA QUERY FOR MOBILE */
 
 @media only screen and (max-width: 600px) {
@@ -263,9 +267,10 @@ h2 {
     }
     #sitrelaxfull {
         padding-top: 0px;
+        height: 60vh;
     }
     #customtripfull {
-        height: 198vh;
+        height: 131vh;
         padding-top: 0px;
     }
     #containerfull {
