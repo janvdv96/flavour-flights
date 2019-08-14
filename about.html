@@ -7,19 +7,13 @@
     <meta name="keywords" content="Flavour Flights, Mocktails, travelling">
     <meta name="author" content="Robin Mariën">
     <title>Flavour Flights | About Us</title>
+    <!-- bootstrap link (for button to-the-top) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style-about.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicon-16x16.png">
 </head>
 
 <body>
@@ -45,19 +39,19 @@
                 <ul class="navbar-nav ml-auto text-right mr-2">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="howitworks.html">how it works</a>
+                        <a class="nav-link" href="howitworks.html">How It Works</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link " href="about.html">about us</a>
+                        <a class="nav-link " href="about.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="contact-users.html">contact</a>
+                        <a class="nav-link " href="contact-users.html">Book Now!</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="reviews.html">reviews</a>
+                        <a class="nav-link " href="reviews.html">Reviews</a>
                     </li>
                 </ul>
             </div>
@@ -80,8 +74,10 @@
                 </div>
     <!-- ABOUT US text -->
                 <div class="col-md-8 p-3 textsection">
-                    <h1 id="about_us" class="font-weight-bold">About Us</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur exercitationem iure iusto labore laudantium nemo officiis quia quo tempora vero. Asperiores esse fugit laboriosam magni, minus nihil quo repellendus sint.
+                    <h2 id="about_us" class="font-weight-bold">About Us</h2>
+                    <p>Flavour Flights is not your typical travel agency. We try to tailor the perfect holiday for you,
+                        based on the drink of your choice. No two vacations with us will ever be the same! So if you're a fan of adventure..
+                        pick a drink and start packing!
                     </p>
                 </div>
             </div>
@@ -183,7 +179,7 @@
                             <div class="country-name">Belgium</div>
                         </div>
                     </address>
-                    <a href="tel:+494123456" target="_blank">Tel: +494 12 34 56</a>
+                    <a class="mb-2" href="tel:+494123456" target="_blank">Tel: +494 12 34 56</a>
                     <a href=mailto:contact@flavourflights.com>contact@flavourflights.com</a>
                 </div>
     <!-- CONTACT Form -->
@@ -204,5 +200,33 @@
     <footer class="panel-footer text-center text-muted mw-100">
         <span>  2019 &copy;Flavour Flights, Inc. -</span>
     </footer>
+    <!-- BACK TO TOP BUTTON -->
+    <a href="#top" onclick="topFunction()" title="back to top" id="button"></a>
+
+    <!-- Boots -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <!-- BACK TO TOP BUTTON script -->
+    <script>
+        var btn = $('#button');
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        $("#button").on("click", function () {
+            $("body").scrollTop(0);
+        });
+    </script>
 </body>
 </html>
