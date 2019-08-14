@@ -20,14 +20,9 @@ body{
     background-size: cover;
 }
 
-#headertext{
-    font-family: 'Lobster', cursive;
-    font-style: italic;
-    color: #f9f9f9;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.headertext{
     position: absolute;
-    font-size: 60px;
-    top: 35vh;
+    top: 30vh;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -36,6 +31,24 @@ body{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+.headertext h1, h2{
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.headertext h1{
+    color: #f9f9f9;
+    font-size: 70px;
+}
+
+.headertext h2{
+    color: #f9f9f9;
+    font-size: 48px;
+}
+
+
 
 form{
     padding: 10px;
