@@ -7,6 +7,8 @@
     <meta name="keywords" content="Flavour Flights, Mocktails, travelling, Review">
     <meta name="author" content="Bona Kim">
     <title>REVIEWS</title>
+    <!-- bootstrap link (for button to-the-top) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -23,7 +25,8 @@
             <img class="navbar-brand" src="src/logo_small.png" alt="logo_company">
         </div>
         <div class="row mt-3">
-            <a class="btn btn-outline-dark border" id="">Book now!</a>
+            <a href="contact-users.html" class="btn btn-dark" id="book-now">Book
+                now!</a>
         </div>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -53,7 +56,6 @@
         </ul>
     </div>
 </nav>
-
 
 <!-- HEADER -->
 <div class="parallax"><h1 id="headertext" class="text-center">Real Travelers’ Reviews You Can Trust!</h1></div>
@@ -342,7 +344,10 @@
     <span>  2019 &copy;Flavour Flights, Inc. -</span>
 </footer>
 
+<!-- BACK TO TOP BUTTON -->
+<a href="#top" onclick="topFunction()" title="back to top" id="button"></a>
 
+<!-- Boots -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -352,5 +357,20 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+<!-- BACK TO TOP BUTTON script -->
+<script>
+    var btn = $('#button');
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    $("#button").on("click", function () {
+        $("body").scrollTop(0);
+    });
+</script>
 </body>
 </html>
